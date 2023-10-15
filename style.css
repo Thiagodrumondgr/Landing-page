@@ -232,7 +232,7 @@ html {
     background-color: var(--text-gray);
 }
 
-.home .home-img {
+.home .home-img picture {
     width: 5%;
     height: auto;
     margin-bottom: -5rem;
@@ -240,7 +240,7 @@ html {
 
 .home .home-img img {
     height: 100%;
-    max-width: 100%;
+    width: 350px;
     height: auto;
    
 }
