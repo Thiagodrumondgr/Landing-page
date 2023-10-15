@@ -241,7 +241,7 @@ html {
 .home .home-img img {
     height: 100%;
     width: 350px;
-    height: auto;
+  
    
 }
 /* End Home Section */
@@ -524,7 +524,7 @@ html {
 /* End Footer Section */
 
 /* Responsive - Desktop / Tablet */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 700px) {
     .nav-bar .nav-list .hamburger {
         display: none;
     }
@@ -597,7 +597,7 @@ html {
 }
 
 /* Responsive - Desktop */
-@media only screen and (max-width: 600pxpx) {
+@media only screen and (max-width: 600px) {
     .home .home-info .home-info-heading {
         font-size: 6rem;
         width: 100%;
