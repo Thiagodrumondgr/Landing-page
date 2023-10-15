@@ -29,7 +29,7 @@ html {
 
 /* Nav Bar */
 #nav-bar {
-    width: 100%;
+    max-width: auto;
     height: auto;
     background-color: black;
     position: fixed;
@@ -41,7 +41,7 @@ html {
     left: 0;
     top: 0;
     padding: 1rem 5rem;
-    width: 100%;
+    max-width: auto;
     
     display:flex;
     align-items: center;
