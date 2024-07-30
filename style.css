@@ -20,6 +20,7 @@ html {
     scroll-behavior: smooth;
     }
 
+
 .container {
     width: 100%;
     height: auto;
@@ -36,12 +37,29 @@ html {
     position: fixed;
     z-index: 100;  
 }
+span{
+    display: block;
+}
+span#burger{
+    text-align: center;
+    cursor: pointer;
+    display: block;
+
+}
+span:hover{
+    background-color: white;
+    color: black;
+}
+menu{
+    display: none;
+}
+
 
 .nav-bar {
     background-color: black;
     left: 0;
     top: 0;
-    padding: 2rem 5rem;
+    padding: 3rem 5rem;
     
     
     display:flex;
@@ -561,8 +579,11 @@ html {
     }
 
     .home .home-info .home-info-subheading {
-        font-size: 1.3rem;
+        font-size: 3rem;
         letter-spacing: .5rem;
+    }
+    .home-info-subheading{ 
+        font-size: 3em;
     }
 
     .home .home-img {
@@ -597,6 +618,15 @@ html {
         margin: 0;
     }
 }
+@media only screen and (min-width: 990px){
+    span#burger{
+        display: none;
+    }
+    menu{
+        display: block;
+    }
+
+}
 
 /* Responsive - Desktop */
 @media only screen and (max-width: 600px) {
@@ -609,4 +639,5 @@ html {
         letter-spacing: .8rem;
         width: 100%;
     }
+
 }
